@@ -1,3 +1,4 @@
+(() => {
 const refs = { 
     
     openModalBtn: document.querySelector("[data-menu-open]"),
@@ -12,4 +13,4 @@ refs.closeModalBtn.addEventListener("click", toggleModal);
 function toggleModal() {
   refs.modal.classList.toggle("menu-open");
 }
-   
+})();   
